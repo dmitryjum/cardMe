@@ -1,4 +1,4 @@
-
+<body class='dashboard'>
 <div class='roladex'>
 
 <section id='menu-column'>
@@ -7,7 +7,7 @@
 
     <div id="group_form">
       <%= form_for [@user, @group] do |f| %>
-      submit <%= f.label :group_name %>
+      Group Name:
       <%= f.text_field :group_name %>
       <%= f.submit "Submit" %>
       <% end %>
@@ -40,7 +40,8 @@
     <h3 id='company-header'>Company Summary</h3>
   </div>
 </section>
-  
-
-   <%= javascript_include_tag "cards", "data-turbolinks-track" => true %>
 </div> <!--close off roladex -->
+</body>
+
+
+
